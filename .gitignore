@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+.pyre/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+
+# Local data and generated artifacts
+vectorstore/chroma_db/**
+!vectorstore/chroma_db/.gitkeep
+
+!data/documents/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# OS files
+Desktop.ini
